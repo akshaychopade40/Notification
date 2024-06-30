@@ -3,38 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Notifications</title>
+    <title>Booking System with Notifications</title>
     <style>
-        body {
+        body 
+        {
             font-family: Arial, sans-serif;
             margin: 50px;
         }
-        .booking-form {
+        .booking-form 
+        {
             max-width: 300px;
             margin: auto;
         }
-        .form-group {
+        .form-group 
+        {
             margin-bottom: 15px;
         }
-        label {
+        label 
+        {
             display: block;
             margin-bottom: 5px;
         }
-        input, select, button {
+        input, select, button 
+        {
             width: 100%;
             padding: 8px;
             box-sizing: border-box;
         }
-        .notification {
+        .notification 
+        {
             display: none;
             padding: 10px;
             margin-top: 20px;
         }
-        .notification.success {
+        .notification.success 
+        {
             background-color: #d4edda;
             color: #155724;
         }
-        .notification.error {
+        .notification.error 
+        {
             background-color: #f8d7da;
             color: #721c24;
         }
@@ -57,7 +65,7 @@
             <option value="0" data-available="true">--Select an item--</option>
             <option value="1" data-available="true">Item 1 - Available</option>
             <option value="2" data-available="false">Item 2 - Unavailable</option>
-            <option value="3" data-available="true">Item 3 - Available</option>
+            <option value="3" data-available="true">Item 3 - Error</option>
         </select>
     </div>
     <div class="form-group">
